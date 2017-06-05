@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body{
+  min-height: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+  margin: 0px;
+}
+
+#app{
+  min-height: 100%;
+  height: 100%;
+  #app-root{
+    min-height: 100%;
+    height: 100%;
+    @import "_FilterContainer";
+    @import '_filter-settings';
+    @import 'pages/login';
+  }
+}

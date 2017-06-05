@@ -1,0 +1,327 @@
+.FilterContainer{
+  background-color: #f9f9f9;
+  min-height: 100%;
+  height: 100%;
+  .header{
+    width: 100%;
+    height: 60px;
+    display: block;
+    border-bottom:1px solid #f2f2f2;
+    background-color: white;
+
+    img{
+      float: left;
+      width: 195px;
+      padding-top: 10px;
+      margin-left: 29px;
+    }
+    .rse{
+      float: right;
+      #profile{
+        float: left;
+        /*display: inline-block;*/
+        /*padding-top: 10px;
+        padding-right: 10px;*/
+        background-color: white;
+        padding: 10px;
+        height: 40px;
+        &:hover{
+          background-color: #f9f9f9;
+
+        }
+
+        #profName{
+          display: inline-block;
+          vertical-align: top;
+          padding-top: 0px;
+          font-family: 'PT Sans', sans-serif;
+          color: #5b5b60;
+          font-size: 13px;
+        }
+        #profJob{
+          display: inline-block;
+          color: gray;
+          /*width: 50%;*/
+          vertical-align: top;
+          font-family: 'PT Sans', sans-serif;
+          color: #bcbcbc;
+          font-size: 13px;
+        }
+        .profinfo{
+          display: inline-block;
+          width: auto;
+          padding-left: 8px;
+          padding-right: 8px;
+          padding-top: 0px;
+          padding-bottom: 10px;
+          font-size: 13px;
+          font-family: 'Lato Semibold', sans-serif;
+
+        }
+        #avatar{
+          width: 40px;
+          height: 40px;
+          vertical-align: middle;
+          border-radius: 20px;
+          display: inline-block;
+          padding: 0;
+        }
+        #arrow{
+          display: inline-block;
+          width: 0px;
+          height: 0px;
+          border: 5px solid transparent;
+          border-top-color: gray;
+          opacity: 0.45;
+          margin: 20px 8px 0 7px;
+          /*border-bottom: 0;*/
+        }
+      }
+      #filter{
+        width: 60px;
+        height: 59px;
+        background-color: #0089e1;
+        display: inline-block;
+        img{
+          width: 22px;
+          height: 22px;
+          float: none;
+          margin-top: 10px;
+          margin-right: 10px;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+  .filterBody{
+    background: #f9f9f9;
+    min-height: 100%;
+    .historyBar{
+      height: 29px;
+      p{
+        display: inline-block;
+        font-size: 13px;
+        font-family: 'Lato Semibold', sans-serif;
+        color: #bcbcbc;
+      }
+      #next{
+        display: inline-block;
+        color: #0089e1;
+        margin-left: 5px;
+      }
+    }
+
+    .SearchBar{
+      height: 40px;
+      margin-top: 10px;
+      .searchBox{
+        background: #ffffff;
+        width: 300px;
+        height: 40px;
+        display: inline-block;
+        vertical-align: top;
+        position: absolute;
+        right: 30px;
+        color: #bcbcbc;
+        font-size: 14px;
+        font-family: 'Lato Semibold', sans-serif;
+        border-radius: 2px;
+        border: solid 0.1px #bcbcbc;
+        .searchInput {
+          color: #bcbcbc;
+          padding: 0px;
+          input{
+            outline: none;
+            width: 100%;
+            height: 38px;
+            border: none;
+          }
+        }
+        img{
+          position: relative;
+          padding: 10px;
+        }
+      }
+      p{
+        display: inline-block;
+        color:#5b5b60;
+        font-size: 24px;
+        font-family: 'Lato Semibold', sans-serif;
+        margin-top: 5px;
+        margin-bottom: 0;
+      }
+      img{
+        display: inline-block;
+        position: absolute;
+        right: 32px;
+        margin-top: 10px;
+      }
+    }
+
+    .mCont{
+      padding-right: 29px;
+      padding-left: 29px;
+      padding-top: 15px;
+    }
+  }
+
+  .basic{
+    margin-left: 30px;
+    max-height: 100%;
+    border-radius: 3px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+
+  }
+  .short{
+    max-height: 100%;
+    border-radius: 3px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+
+  }
+  .resume{
+    margin-right: 30px;
+    max-height: 100%;
+    border-radius: 3px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+  }
+  .profilePic{
+    margin: 22px 20px;
+  }
+  .name{
+    color: #5b5b60;
+    font-family: 'Lato',sans-serif;;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .divider{
+    width: 90%;
+    height: 1px;
+    background-color: #e7e7e7;
+    margin: auto;
+  }
+  .grey{
+    color: #bcbcbc;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
+  .dark{
+    color: #5b5b60;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
+  .text{
+    margin: 20px;
+  }
+  .infoBox{
+    margin: 22px;
+    margin-left: 36px;
+  }
+  #title{
+    color: #5b5b60;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin:20px 0 20px 20px;
+  }
+  .subTitle{
+    color: #5cb85c;
+    font-family: 'Lato',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .tableWrapper{
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .tables{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+
+    th{
+      cursor: pointer;
+    }
+    .tHeader{
+      padding-bottom: 13px;
+      background: #f9f9f9;
+      color: #5b5b60;
+      border:none;
+      font-size: 13px;
+      font-family: 'Lato', sans-serif;
+      color: #bcbcbc;
+      font-weight: lighter;
+    }
+    .tHeader:first-child{
+      padding-left: 20px;
+    }
+    .table2 .tHeader{
+      padding-left: 20px;
+      padding-top: 10px;
+    }
+    .tRow{
+      border: solid 0.5px #bcbcbc;
+      font-size: 13px;
+      font-family: 'Lato', sans-serif;
+      color: #5b5b60;
+      padding: 17px;
+      background: #ffffff;
+
+    }
+    .tRow td:first-child{
+      width: 5px;
+      padding-left: 0;
+    }
+
+    .tRow td{
+      padding: 20px 0 20px 20px;
+    }
+    .tRow td:last-child{
+      width: 0;
+      padding-right: 20px;
+    }
+    .tRow td:last-child img{
+      width: 20px;
+      height: 20px;
+      float: right;
+    }
+    .editData{
+      border: solid 0.5px #bcbcbc;
+      font-size: 30px;
+      font-family: 'Lato', sans-serif;
+      color: #5b5b60;
+      background: #ffffff;
+      input{
+        width: 10px;
+      }
+
+      td:first-child{
+        padding-left: 20px;
+      }
+
+      td{
+        padding: 20px 0 20px 0;
+      }
+      td:last-child{
+        padding-right: 0;
+      }
+      img{
+        width: 20px;
+        height: 20px;
+        float: right;
+      }
+    }
+  }
+
+  .table2{
+    margin-top: 20px;
+  }
+  #editImg{
+    margin: 20px;
+  }
+
+}
