@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+    Link
+} from 'react-router-dom';
 
 class Anketa extends React.Component {
     constructor(props){
@@ -11,7 +14,7 @@ class Anketa extends React.Component {
                 <div className="filterBody">
                     <div className="mCont" style = {{paddingBottom: "20px"}}>
                         <div className="historyBar">
-                            <p>Главная >  </p><p>&nbsp;Результат фильтра > </p><p id = "next">Анкета</p>
+                            <p><Link to="/profile" style={{color: '#bcbcbc', textDecoration: 'none'}}>Главная ></Link>  </p><p>&nbsp;<Link to="/profile/filter-result" style={{color: '#bcbcbc', textDecoration: 'none'}}>Результат фильтра</Link> > </p><p id = "next">Анкета</p>
                         </div>
                         <div className="SearchBar">
                             <p>Анкета сотрудника </p>
